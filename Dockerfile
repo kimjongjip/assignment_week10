@@ -7,7 +7,6 @@ RUN cd root
 RUN mkdir A B C
 RUN git clone https://github.com/kimjongjip/mypy.git
 RUN mkdir files
-RUN cd files
 RUN touch /files/a.txt 
 RUN touch /files/b.txt 
 RUN touch /files/c.txt
